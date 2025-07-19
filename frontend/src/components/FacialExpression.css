@@ -1,0 +1,14 @@
+.camera-div {
+  width: 100%;
+  padding: 5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container-video {
+  width: 500px;
+  object-fit: cover;
+  aspect-ratio: 2/1.2;
+  border-radius: 2rem;
+}

@@ -1,9 +1,10 @@
-const moongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-const songSchema = new moongoose.Schema({
+const songSchema = new mongoose.Schema({
   title: String,
   artist: String,
   audio: String,
+  mood: String,
 });
 
 const song = mongoose.model("song", songSchema);
